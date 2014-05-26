@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#usage:
+#start from a user,then all his friends'id will be stored in the "data.txt"
 #---------------------------------import---------------------------------------
 import urllib2
 import re
