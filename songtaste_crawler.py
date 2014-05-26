@@ -38,9 +38,9 @@ def main():
                 except urllib2.URLError:
                     print 'request fail' 
                 except socket.timeout:
-                    print 'fuck time out'   
+                    print 'request time out'   
                 except socket.error,e:
-                    print 'fuck time out'   
+                    print 'request time out'   
                 else:
                     keepRequest=0
             html = resp.read()
