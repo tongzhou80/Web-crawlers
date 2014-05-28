@@ -109,5 +109,5 @@ while searchCnt<maxUserNum:
             contactId=''
     show.flush()
     searchCnt+=1
-    sys.stdout('by now,'+searchCnt+' users\'contacts have been scrapped')
+    print 'In all,',searchCnt,'users\'contacts have been scrapped'
 
