@@ -1,8 +1,10 @@
 __author__ = 'Gentlyguitar'
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#usage:
-#start from a user,then all his friends'id will be stored in the "data.txt"
+#tip:
+#1.target site:http://www.songtaste.com/,where you don't need to sign in
+#2.parse:the most fundamental way,only string.find() involved,unconvenient yet clear
+#3.result:stored in the "data.txt"
 #---------------------------------import---------------------------------------
 import urllib2
 import re
