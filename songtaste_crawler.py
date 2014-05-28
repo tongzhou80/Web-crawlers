@@ -1,6 +1,4 @@
-__author__ = 'Gentlyguitar'
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+#coding: utf-8
 #tip:
 #1.target site:http://www.songtaste.com/,where you don't need to sign in
 #2.parse:the most fundamental way,only string.find() involved,unconvenient yet clear
