@@ -30,8 +30,8 @@ randomActionName=soup.form['action']
 randomVkValue=soup.find(attrs={'name':'vk'})['value']
 randomPasswdName=soup.find(attrs={'type':'password'})['name']
 url='http://3g.sina.com.cn/prog/wapsite/sso/' + randomActionName
-data={"mobile":"zt9465@163.com",
-      randomPasswdName:'zt52287800616',
+data={"mobile":"XX",
+      randomPasswdName:'XX',
       'remember': 'on',
       'backURL': 'http://weibo.cn/',
       'vk': randomVkValue,
