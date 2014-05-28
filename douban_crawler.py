@@ -4,6 +4,8 @@
 #2.parse:BeautifulSoup,which is awesome
 #3.result:stored in "data.txt"
 
+
+import sys
 import urllib2
 import urllib
 import cookielib
@@ -27,7 +29,6 @@ while keepRequest==1:
         print 'request again'
     else:
         keepRequest=0
-print logginPage
 soup = BeautifulSoup(logginPage)
 imgUrl=soup.find(attrs={'id':'captcha_image'})['src']
 captcha_id=soup.find(attrs={'name':'captcha-id'})['value']
@@ -81,23 +82,23 @@ while searchCnt<maxUserNum:
             print 'request again'
         else:
             keepRequest=0
-    print UserPage
+    #print UserPage
     soup = BeautifulSoup(UserPage)
     contactList=soup.findAll('dt')
     contactId=''
 
-    print len(contactList)
+    #print len(contactList)
     for i in range(0,len(contactList)):
         currentContact=contactList[i]
         contactLink=currentContact.contents[0].contents[0]['src']
         contactLink=contactLink[29:len(contactLink)]
-        print contactLink
+        #print contactLink
         for letter in contactLink:
             if letter=='-':
                 break
             if letter>='0' and letter<='9':
                 contactId+=letter
-        print  contactId
+        #print  contactId
         if contactId=='':
             continue
         else:
@@ -108,3 +109,5 @@ while searchCnt<maxUserNum:
             contactId=''
     show.flush()
     searchCnt+=1
+    sys.stdout('by now,'+searchCnt+' users\'contacts have been scrapped')
+
