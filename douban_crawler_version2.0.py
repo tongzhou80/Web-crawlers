@@ -34,8 +34,8 @@ im.show()
 captcha_solution= raw_input("Captcha is:")
 data={'source':'simple',
       'redir':'http://www.douban.com/people/77250418/contacts',
-      "form_email":"zt9465@163.com",
-      'form_password':'4512686',
+      "form_email":your email,
+      'form_password':your password,
       'captcha-solution':captcha_solution,
       'captcha-id':captcha_id,
       'user_login':'登录'
