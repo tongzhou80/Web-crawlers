@@ -5,7 +5,6 @@ four crawlers, targeted at four different sites.
 - [songtaste](www.songtaste.com)
 
 
-\---------------------
 ####Difficulties
 
 - douban
@@ -18,7 +17,6 @@ four crawlers, targeted at four different sites.
 - songtaste
 
 
-\---------------------
 ####Solutions
 
 - douban
@@ -32,7 +30,6 @@ four crawlers, targeted at four different sites.
     - the simplest one
 
 
-\---------------------
 ####Gains
 
 - Beautiful Soup is really awesome, and it has a interesting name.
