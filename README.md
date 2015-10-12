@@ -7,7 +7,7 @@ Five crawlers, targeted at five different sites.
 
 ####Difficulties
 
--damai
+- damai
     - ajax
 - douban
     - captcha 
