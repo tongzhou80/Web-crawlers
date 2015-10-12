@@ -30,8 +30,4 @@ four crawlers, targeted at four different sites.
     - the simplest one
 
 
-####Gains
-
-- Beautiful Soup is really awesome, and it has a interesting name.
-- Though extracting information is a relatively easy part in a research, a efficient crawler will still be very helpful.
 
