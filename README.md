@@ -1,12 +1,14 @@
-four crawlers, targeted at four different sites. 
+Five crawlers, targeted at five different sites. 
 - [douban](www.douban.com) 
 - [zhihu](www.zhihu.com)
 - [weibo](www.weibo.com)
 - [songtaste](www.songtaste.com)
-
+- [damai](http://www.damai.cn/)
 
 ####Difficulties
 
+-damai
+    - ajax
 - douban
     - captcha 
     - block ip
