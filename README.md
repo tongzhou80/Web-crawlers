@@ -8,6 +8,7 @@ These five crawlers were written during my undergraduate study due to various en
     - There are multiple ports where you can login to weibo, I already forget which login page I was using, but its form contains a random id, possibly preventing cross-site request forgery. You'll need to pass that id with the posted data as well.
 - [songtaste](www.songtaste.com)
     - Songtaste is a plain website without any data protection strategy, as least at the time when the script was written. Getting its data is straightforward.
+    - update, songtaste is now permanently down :(
 - [damai](http://www.damai.cn/)
     - Damai is a ticket booking site. Tickect availability and price may vary according the condition you want to satisfy. To this end, ajax is used extensively. To simulate ajax, you'll need to monitor the network to capture the ajax request.
 
