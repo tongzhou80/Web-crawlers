@@ -12,4 +12,4 @@ These five crawlers were written during my undergraduate study due to various en
 - [damai](http://www.damai.cn/)
     - Damai is a ticket booking site. Tickect availability and price may vary according the condition you want to satisfy. To this end, ajax is used extensively. To simulate ajax, you'll need to monitor the network to capture the ajax request.
 
-The code could be outdated and not run on your machine, but the idea behind the code applies to all sorts of problems in web crawling.
+The code could be outdated and might not run on your machine, but the idea behind the code applies to all sorts of problems in web crawling.
